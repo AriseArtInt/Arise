@@ -27,7 +27,7 @@ conversation_memory = []
 conversation_file = "conversation_history.json"
 
 # Load Vosk Model
-model_path = "vosk-model-en-in-0.5"  # Change this to your actual Vosk model path
+model_path = "C:\\Voice\\vosk-model-en-in-0.5"  # Change this to your actual Vosk model path
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Please download the Vosk model and place it in the '{model_path}' folder.")
 model = vosk.Model(model_path)
